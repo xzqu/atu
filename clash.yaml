@@ -5,581 +5,501 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN_849 |14.40Mb, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_865 | 9.28Mb, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_852 | 9.36Mb, server: hz.kkkssr.ru, port: 31001, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_874 |20.97Mb, server: hz.kkkssr.ru, port: 31001, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_850 |16.11Mb, server: hz.kkkssr.ru, port: 31003, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_876 |29.09Mb, server: hz.kkkssr.ru, port: 31003, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 TW_3577 | 1.38Mb, server: vtwonet-tw-a.qjnodeip.xyz, port: 10086, type: vmess, uuid: FD62FBFE-DD70-4772-B712-BB74F4C3264A, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_875 |19.61Mb, server: hz.kkkssr.ru, port: 31000, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_865 |28.42Mb, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_2147 |25.75Mb, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: FD62FBFE-DD70-4772-B712-BB74F4C3264A, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_867 |23.53Mb, server: hz.kkkssr.ru, port: 31002, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_849 |12.83Mb, server: hz.kkkssr.ru, port: 31002, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇯🇵 JP_2575 |19.08Mb, server: jp06.v2net.top, port: 443, type: vmess, uuid: FD62FBFE-DD70-4772-B712-BB74F4C3264A, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: jp06.v2net.top}}
-  - {name: 🇨🇳 CN_851 |19.94Mb, server: hz.kkkssr.ru, port: 31000, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 HK_2100 |27.46Mb, server: az1.keaiyun.xyz, port: 31022, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 HK_2095 | 5.59Mb, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_2145 |20.41Mb, server: 18.162.191.54, port: 80, type: vmess, uuid: 4094db3e-5794-4c63-b95a-b4ea754163c5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: github.com}}
-  - {name: 🇭🇰 HK_2150 |24.57Mb, server: hk178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: hk178.mars6666.com}}
-  - {name: 🇭🇰 HK_2169 |26.08Mb, server: 18.163.49.28, port: 80, type: vmess, uuid: 4094db3e-5794-4c63-b95a-b4ea754163c5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: github.com}}
-  - {name: 🇨🇳 CN_864 | 9.38Mb, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 KR_2619 | 3.23Mb, server: 15.164.226.53, port: 80, type: vmess, uuid: 4094db3e-5794-4c63-b95a-b4ea754163c5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: github.com}}
-  - {name: 🇭🇰 HK_2148 |13.20Mb, server: 18.163.117.8, port: 80, type: vmess, uuid: 4094db3e-5794-4c63-b95a-b4ea754163c5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: github.com}}
-  - {name: 🇭🇰 HK_2151 | 8.22Mb, server: zhongzhuangazhk111.xiaobaiyun.me, port: 810, type: vmess, uuid: 28aae7ef-076e-3e57-818f-29ff89e38d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: mgalsj.xiaobaiyun.me}}
-  - {name: 🇨🇳 CN_859 |25.24Mb, server: cn2.relay.iplc.pro, port: 52006, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_859 |27.69Mb, server: cn2.relay.iplc.pro, port: 52006, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_2096 |19.43Mb, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_870 |12.11Mb, server: hz.kkkssr.ru, port: 31008, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_869 |10.03Mb, server: hz.kkkssr.ru, port: 31008, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 TW_3578 | 1.61Mb, server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: FD62FBFE-DD70-4772-B712-BB74F4C3264A, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🏁, server: 138.199.19.177, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸, server: 192.154.255.52, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇰🇷 KR_2642 |13.55Mb, server: 15.164.226.53, port: 80, type: vmess, uuid: 4094db3e-5794-4c63-b95a-b4ea754163c5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: github.com}}
-  - {name: 🇭🇰 HK_2091 |828.88Mb, server: 52.175.55.18, port: 31007, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_855 | 9.42Mb, server: hz.kkkssr.ru, port: 31006, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_858 |36.62Mb, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 JP_2538 |26.70Mb, server: jp1.direct.iplc.pro, port: 52000, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_839 |11.17Mb, server: cn2.relay.iplc.pro, port: 52009, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 KR_2617 |46.37Mb, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_2086 |27.22Mb, server: az1.keaiyun.xyz, port: 31023, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇸 US_4398, server: 192.154.255.52, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇨🇳 CN_854 | 8.63Mb, server: hz.kkkssr.ru, port: 31005, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 CN_866 |17.69Mb, server: cn1.relay.iplc.pro, port: 52000, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇳🇱, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 NL_2867, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 CN_864 | 5.43Mb, server: cn1.relay.iplc.pro, port: 52000, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_3834 |13.12Mb, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name: 🇺🇸 US_3965, server: 212.102.44.88, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: ZZ_5023, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇷🇴, server: 193.29.106.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_4834 |15.59Mb, server: us178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: 🇰🇷 KR_2598 |37.66Mb, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_4137, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_4840 |10.64Mb, server: 104.16.248.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
-  - {name: 🇨🇳 CN_856 |13.09Mb, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 2, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_4599, server: 89.187.187.66, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🏁 2, server: 138.199.19.139, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: _128, server: 176.222.34.113, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 CN_872 | 7.74Mb, server: hz.kkkssr.ru, port: 31005, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇸 US_4352, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇭🇰 HK_2098 | 8.14Mb, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: 441e522c-6329-406d-b018-775db7311201, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_4263, server: 212.102.44.88, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 US_4001, server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 3, server: 66.115.147.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇿, server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_3866, server: 155.254.29.165, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US_4835 |14.79Mb, server: jp02cf.v2cdn.org, port: 443, type: vmess, uuid: FD62FBFE-DD70-4772-B712-BB74F4C3264A, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: jp02cf.v2cdn.org}}
+  - {name: 🇭🇰 HK_2188 | 5.18Mb, server: cmi.noten.cyou, port: 443, type: trojan, password: f924f95d-9356-4ed8-8177-cbbe397bc34c, sni: cmi.noten.cyou, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_932, server: cn2.relay.iplc.pro, port: 52010, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 2.58.242.131:35294, server: 2.58.242.131, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 CN_941 | 3.72Mb, server: cn1.relay.iplc.pro, port: 52010, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_2185 |48.45Mb, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_939 |42.11Mb, server: cn2.relay.iplc.pro, port: 52012, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_3682 |10.68Mb, server: tw1.direct.iplc.pro, port: 52000, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_951, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_2183 |28.32Mb, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 2.58.242.51:34815, server: 2.58.242.51, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 2.58.242.51:38033, server: 2.58.242.51, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 2.58.242.51:31944, server: 2.58.242.51, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 2.58.242.51:33992, server: 2.58.242.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 2.58.242.51:35294, server: 2.58.242.51, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 2.58.242.51:31572, server: 2.58.242.51, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 CN_952 | 9.24Mb, server: 183.236.97.99, port: 52565, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 2.58.242.51:40093, server: 2.58.242.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: ffrenzy.tk:11443, server: ffrenzy.tk, port: 11443, type: ss, cipher: chacha20-ietf-poly1305, password: 543c3bff-3d9b-41b6-800e-a8ae3eb0712a}
+  - {name: 2.58.242.51:31764, server: 2.58.242.51, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 CN_947 | 4.66Mb, server: cn1.relay.iplc.pro, port: 52004, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_3595 |15.17Mb, server: 172.104.62.248, port: 80, type: vmess, uuid: 3c6e2754-9553-4801-bcb2-2043d92a5a0e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.um.edu.mo}}
+  - {name: 🇨🇳 CN_935 |33.04Mb, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_950 |30.14Mb, server: cn2.relay.iplc.pro, port: 52003, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_940 | 2.62Mb, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_2233 |40.95Mb, server: 13.75.94.26, port: 10003, type: vmess, uuid: 484f2569-13e5-4945-ab46-7f63b4db8088, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hongyun, ws-headers: {Host: bing.com}}
+  - {name: 🇨🇳 CN_931, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 2.58.242.43:39772, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 2.58.242.51:37588, server: 2.58.242.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇭🇰 HK_2234 |41.95Mb, server: azhk.jiasu1.xyz, port: 10003, type: vmess, uuid: 484f2569-13e5-4945-ab46-7f63b4db8088, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hongyun, ws-headers: {Host: bing.com}}
+  - {name: 🇨🇳 CN_937 |11.17Mb, server: cn2.relay.iplc.pro, port: 52006, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_944 | 1.84Mb, server: cn2.relay.iplc.pro, port: 52011, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_945 |30.03Mb, server: 52.81.99.5, port: 52565, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_936 |16.06Mb, server: cn2.relay.iplc.pro, port: 52009, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 2.58.242.51:37473, server: 2.58.242.51, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 CN_949 |24.29Mb, server: cn1.relay.iplc.pro, port: 52006, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_938 |13.83Mb, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 2.58.242.131:31764, server: 2.58.242.131, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇯🇵 JP_2623 |35.43Mb, server: jp1.direct.iplc.pro, port: 52000, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_943 | 2.73Mb, server: cn1.relay.iplc.pro, port: 52011, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_2232 |25.17Mb, server: 42.2.143.119, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: 2.58.242.131:38033, server: 2.58.242.131, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 2.58.242.131:40093, server: 2.58.242.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 SG_3596 |19.15Mb, server: baga.shenti.xyz, port: 443, type: vmess, uuid: d4d39c0b-6c9a-4aa3-9792-3cc59da26439, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: baga.shenti.xyz}}
+  - {name: 🇯🇵 JP_2685 |40.68Mb, server: auto.freev2.top, port: 34564, type: vmess, uuid: afda1fa1-b15a-41d5-9aca-5b1cb401e69a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_3567 | 3.47Mb, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 🇨🇳 CN_933 | 7.97Mb, server: cn2.relay.iplc.pro, port: 52007, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 2.58.242.43:38033, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 2.58.242.131:33992, server: 2.58.242.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 2.58.242.131:39772, server: 2.58.242.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 2.58.242.131:37588, server: 2.58.242.131, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 2.58.242.131:34815, server: 2.58.242.131, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 2.58.242.131:31944, server: 2.58.242.131, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 CN_942 | 5.19Mb, server: cn1.relay.iplc.pro, port: 52007, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP_2699 |14.15Mb, server: ks-jp-a.qjnodeip.xyz, port: 5320, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-jp-a.qjnodeip.xyz}}
+  - {name: 🇭🇰 HK_2181 |29.78Mb, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: 2.58.242.51:39772, server: 2.58.242.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 TW_3681 |48.88Mb, server: hk5.direct.iplc.pro, port: 52000, type: vmess, uuid: a7904ea5-6d2b-4622-9099-187678288adf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN_849 |14.40Mb
-      - 🇨🇳 CN_865 | 9.28Mb
-      - 🇨🇳 CN_852 | 9.36Mb
-      - 🇨🇳 CN_874 |20.97Mb
-      - 🇨🇳 CN_850 |16.11Mb
-      - 🇨🇳 CN_876 |29.09Mb
-      - 🇨🇳 TW_3577 | 1.38Mb
-      - 🇨🇳 CN_875 |19.61Mb
-      - 🇨🇳 CN_865 |28.42Mb
-      - 🇭🇰 HK_2147 |25.75Mb
-      - 🇨🇳 CN_867 |23.53Mb
-      - 🇨🇳 CN_849 |12.83Mb
-      - 🇯🇵 JP_2575 |19.08Mb
-      - 🇨🇳 CN_851 |19.94Mb
-      - 🇭🇰 HK_2100 |27.46Mb
-      - 🇭🇰 HK_2095 | 5.59Mb
-      - 🇭🇰 HK_2145 |20.41Mb
-      - 🇭🇰 HK_2150 |24.57Mb
-      - 🇭🇰 HK_2169 |26.08Mb
-      - 🇨🇳 CN_864 | 9.38Mb
-      - 🇰🇷 KR_2619 | 3.23Mb
-      - 🇭🇰 HK_2148 |13.20Mb
-      - 🇭🇰 HK_2151 | 8.22Mb
-      - 🇨🇳 CN_859 |25.24Mb
-      - 🇨🇳 CN_859 |27.69Mb
-      - 🇭🇰 HK_2096 |19.43Mb
-      - 🇨🇳 CN_870 |12.11Mb
-      - 🇨🇳 CN_869 |10.03Mb
-      - 🇨🇳 TW_3578 | 1.61Mb
-      - 🏁
-      - 🇺🇸
-      - 🇰🇷 KR_2642 |13.55Mb
-      - 🇭🇰 HK_2091 |828.88Mb
-      - 🇨🇳 CN_855 | 9.42Mb
-      - 🇨🇳 CN_858 |36.62Mb
-      - 🇯🇵 JP_2538 |26.70Mb
-      - 🇨🇳 CN_839 |11.17Mb
-      - 🇰🇷 KR_2617 |46.37Mb
-      - 🇭🇰 HK_2086 |27.22Mb
-      - 🇺🇸 US_4398
-      - 🇨🇳 CN_854 | 8.63Mb
-      - 🇨🇳 CN_866 |17.69Mb
-      - 🇳🇱
-      - 🇳🇱 NL_2867
-      - 🇨🇳 CN_864 | 5.43Mb
-      - 🇺🇸 US_3834 |13.12Mb
-      - 🇺🇸 US_3965
-      - ZZ_5023
-      - 🇷🇴
-      - 🇺🇸 US_4834 |15.59Mb
-      - 🇰🇷 KR_2598 |37.66Mb
-      - 🇺🇸 US_4137
-      - 🇺🇸 US_4840 |10.64Mb
-      - 🇨🇳 CN_856 |13.09Mb
-      - 🇺🇸 2
-      - 🇺🇸 US_4599
-      - 🏁 2
-      - _128
-      - 🇨🇳 CN_872 | 7.74Mb
-      - 🇺🇸 US_4352
-      - 🇭🇰 HK_2098 | 8.14Mb
-      - 🇺🇸 US_4263
-      - 🇺🇸 US_4001
-      - 🇺🇸 3
-      - 🇨🇿
-      - 🇺🇸 US_3866
-      - 🇺🇸 US_4835 |14.79Mb
+      - 🇭🇰 HK_2188 | 5.18Mb
+      - 🇨🇳 CN_932
+      - 2.58.242.131:35294
+      - 🇨🇳 CN_941 | 3.72Mb
+      - 🇭🇰 HK_2185 |48.45Mb
+      - 🇨🇳 CN_939 |42.11Mb
+      - 🇨🇳 TW_3682 |10.68Mb
+      - 🇨🇳 CN_951
+      - 🇭🇰 HK_2183 |28.32Mb
+      - 2.58.242.51:34815
+      - 2.58.242.51:38033
+      - 2.58.242.51:31944
+      - 2.58.242.51:33992
+      - 2.58.242.51:35294
+      - 2.58.242.51:31572
+      - 🇨🇳 CN_952 | 9.24Mb
+      - 2.58.242.51:40093
+      - ffrenzy.tk:11443
+      - 2.58.242.51:31764
+      - 🇨🇳 CN_947 | 4.66Mb
+      - 🇸🇬 SG_3595 |15.17Mb
+      - 🇨🇳 CN_935 |33.04Mb
+      - 🇨🇳 CN_950 |30.14Mb
+      - 🇨🇳 CN_940 | 2.62Mb
+      - 🇭🇰 HK_2233 |40.95Mb
+      - 🇨🇳 CN_931
+      - 2.58.242.43:39772
+      - 2.58.242.51:37588
+      - 🇭🇰 HK_2234 |41.95Mb
+      - 🇨🇳 CN_937 |11.17Mb
+      - 🇨🇳 CN_944 | 1.84Mb
+      - 🇨🇳 CN_945 |30.03Mb
+      - 🇨🇳 CN_936 |16.06Mb
+      - 2.58.242.51:37473
+      - 🇨🇳 CN_949 |24.29Mb
+      - 🇨🇳 CN_938 |13.83Mb
+      - 2.58.242.131:31764
+      - 🇯🇵 JP_2623 |35.43Mb
+      - 🇨🇳 CN_943 | 2.73Mb
+      - 🇭🇰 HK_2232 |25.17Mb
+      - 2.58.242.131:38033
+      - 2.58.242.131:40093
+      - 🇸🇬 SG_3596 |19.15Mb
+      - 🇯🇵 JP_2685 |40.68Mb
+      - 🇸🇬 SG_3567 | 3.47Mb
+      - 🇨🇳 CN_933 | 7.97Mb
+      - 2.58.242.43:38033
+      - 2.58.242.131:33992
+      - 2.58.242.131:39772
+      - 2.58.242.131:37588
+      - 2.58.242.131:34815
+      - 2.58.242.131:31944
+      - 🇨🇳 CN_942 | 5.19Mb
+      - 🇯🇵 JP_2699 |14.15Mb
+      - 🇭🇰 HK_2181 |29.78Mb
+      - 2.58.242.51:39772
+      - 🇨🇳 TW_3681 |48.88Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN_849 |14.40Mb
-      - 🇨🇳 CN_865 | 9.28Mb
-      - 🇨🇳 CN_852 | 9.36Mb
-      - 🇨🇳 CN_874 |20.97Mb
-      - 🇨🇳 CN_850 |16.11Mb
-      - 🇨🇳 CN_876 |29.09Mb
-      - 🇨🇳 TW_3577 | 1.38Mb
-      - 🇨🇳 CN_875 |19.61Mb
-      - 🇨🇳 CN_865 |28.42Mb
-      - 🇭🇰 HK_2147 |25.75Mb
-      - 🇨🇳 CN_867 |23.53Mb
-      - 🇨🇳 CN_849 |12.83Mb
-      - 🇯🇵 JP_2575 |19.08Mb
-      - 🇨🇳 CN_851 |19.94Mb
-      - 🇭🇰 HK_2100 |27.46Mb
-      - 🇭🇰 HK_2095 | 5.59Mb
-      - 🇭🇰 HK_2145 |20.41Mb
-      - 🇭🇰 HK_2150 |24.57Mb
-      - 🇭🇰 HK_2169 |26.08Mb
-      - 🇨🇳 CN_864 | 9.38Mb
-      - 🇰🇷 KR_2619 | 3.23Mb
-      - 🇭🇰 HK_2148 |13.20Mb
-      - 🇭🇰 HK_2151 | 8.22Mb
-      - 🇨🇳 CN_859 |25.24Mb
-      - 🇨🇳 CN_859 |27.69Mb
-      - 🇭🇰 HK_2096 |19.43Mb
-      - 🇨🇳 CN_870 |12.11Mb
-      - 🇨🇳 CN_869 |10.03Mb
-      - 🇨🇳 TW_3578 | 1.61Mb
-      - 🏁
-      - 🇺🇸
-      - 🇰🇷 KR_2642 |13.55Mb
-      - 🇭🇰 HK_2091 |828.88Mb
-      - 🇨🇳 CN_855 | 9.42Mb
-      - 🇨🇳 CN_858 |36.62Mb
-      - 🇯🇵 JP_2538 |26.70Mb
-      - 🇨🇳 CN_839 |11.17Mb
-      - 🇰🇷 KR_2617 |46.37Mb
-      - 🇭🇰 HK_2086 |27.22Mb
-      - 🇺🇸 US_4398
-      - 🇨🇳 CN_854 | 8.63Mb
-      - 🇨🇳 CN_866 |17.69Mb
-      - 🇳🇱
-      - 🇳🇱 NL_2867
-      - 🇨🇳 CN_864 | 5.43Mb
-      - 🇺🇸 US_3834 |13.12Mb
-      - 🇺🇸 US_3965
-      - ZZ_5023
-      - 🇷🇴
-      - 🇺🇸 US_4834 |15.59Mb
-      - 🇰🇷 KR_2598 |37.66Mb
-      - 🇺🇸 US_4137
-      - 🇺🇸 US_4840 |10.64Mb
-      - 🇨🇳 CN_856 |13.09Mb
-      - 🇺🇸 2
-      - 🇺🇸 US_4599
-      - 🏁 2
-      - _128
-      - 🇨🇳 CN_872 | 7.74Mb
-      - 🇺🇸 US_4352
-      - 🇭🇰 HK_2098 | 8.14Mb
-      - 🇺🇸 US_4263
-      - 🇺🇸 US_4001
-      - 🇺🇸 3
-      - 🇨🇿
-      - 🇺🇸 US_3866
-      - 🇺🇸 US_4835 |14.79Mb
+      - 🇭🇰 HK_2188 | 5.18Mb
+      - 🇨🇳 CN_932
+      - 2.58.242.131:35294
+      - 🇨🇳 CN_941 | 3.72Mb
+      - 🇭🇰 HK_2185 |48.45Mb
+      - 🇨🇳 CN_939 |42.11Mb
+      - 🇨🇳 TW_3682 |10.68Mb
+      - 🇨🇳 CN_951
+      - 🇭🇰 HK_2183 |28.32Mb
+      - 2.58.242.51:34815
+      - 2.58.242.51:38033
+      - 2.58.242.51:31944
+      - 2.58.242.51:33992
+      - 2.58.242.51:35294
+      - 2.58.242.51:31572
+      - 🇨🇳 CN_952 | 9.24Mb
+      - 2.58.242.51:40093
+      - ffrenzy.tk:11443
+      - 2.58.242.51:31764
+      - 🇨🇳 CN_947 | 4.66Mb
+      - 🇸🇬 SG_3595 |15.17Mb
+      - 🇨🇳 CN_935 |33.04Mb
+      - 🇨🇳 CN_950 |30.14Mb
+      - 🇨🇳 CN_940 | 2.62Mb
+      - 🇭🇰 HK_2233 |40.95Mb
+      - 🇨🇳 CN_931
+      - 2.58.242.43:39772
+      - 2.58.242.51:37588
+      - 🇭🇰 HK_2234 |41.95Mb
+      - 🇨🇳 CN_937 |11.17Mb
+      - 🇨🇳 CN_944 | 1.84Mb
+      - 🇨🇳 CN_945 |30.03Mb
+      - 🇨🇳 CN_936 |16.06Mb
+      - 2.58.242.51:37473
+      - 🇨🇳 CN_949 |24.29Mb
+      - 🇨🇳 CN_938 |13.83Mb
+      - 2.58.242.131:31764
+      - 🇯🇵 JP_2623 |35.43Mb
+      - 🇨🇳 CN_943 | 2.73Mb
+      - 🇭🇰 HK_2232 |25.17Mb
+      - 2.58.242.131:38033
+      - 2.58.242.131:40093
+      - 🇸🇬 SG_3596 |19.15Mb
+      - 🇯🇵 JP_2685 |40.68Mb
+      - 🇸🇬 SG_3567 | 3.47Mb
+      - 🇨🇳 CN_933 | 7.97Mb
+      - 2.58.242.43:38033
+      - 2.58.242.131:33992
+      - 2.58.242.131:39772
+      - 2.58.242.131:37588
+      - 2.58.242.131:34815
+      - 2.58.242.131:31944
+      - 🇨🇳 CN_942 | 5.19Mb
+      - 🇯🇵 JP_2699 |14.15Mb
+      - 🇭🇰 HK_2181 |29.78Mb
+      - 2.58.242.51:39772
+      - 🇨🇳 TW_3681 |48.88Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN_849 |14.40Mb
-      - 🇨🇳 CN_865 | 9.28Mb
-      - 🇨🇳 CN_852 | 9.36Mb
-      - 🇨🇳 CN_874 |20.97Mb
-      - 🇨🇳 CN_850 |16.11Mb
-      - 🇨🇳 CN_876 |29.09Mb
-      - 🇨🇳 TW_3577 | 1.38Mb
-      - 🇨🇳 CN_875 |19.61Mb
-      - 🇨🇳 CN_865 |28.42Mb
-      - 🇭🇰 HK_2147 |25.75Mb
-      - 🇨🇳 CN_867 |23.53Mb
-      - 🇨🇳 CN_849 |12.83Mb
-      - 🇯🇵 JP_2575 |19.08Mb
-      - 🇨🇳 CN_851 |19.94Mb
-      - 🇭🇰 HK_2100 |27.46Mb
-      - 🇭🇰 HK_2095 | 5.59Mb
-      - 🇭🇰 HK_2145 |20.41Mb
-      - 🇭🇰 HK_2150 |24.57Mb
-      - 🇭🇰 HK_2169 |26.08Mb
-      - 🇨🇳 CN_864 | 9.38Mb
-      - 🇰🇷 KR_2619 | 3.23Mb
-      - 🇭🇰 HK_2148 |13.20Mb
-      - 🇭🇰 HK_2151 | 8.22Mb
-      - 🇨🇳 CN_859 |25.24Mb
-      - 🇨🇳 CN_859 |27.69Mb
-      - 🇭🇰 HK_2096 |19.43Mb
-      - 🇨🇳 CN_870 |12.11Mb
-      - 🇨🇳 CN_869 |10.03Mb
-      - 🇨🇳 TW_3578 | 1.61Mb
-      - 🏁
-      - 🇺🇸
-      - 🇰🇷 KR_2642 |13.55Mb
-      - 🇭🇰 HK_2091 |828.88Mb
-      - 🇨🇳 CN_855 | 9.42Mb
-      - 🇨🇳 CN_858 |36.62Mb
-      - 🇯🇵 JP_2538 |26.70Mb
-      - 🇨🇳 CN_839 |11.17Mb
-      - 🇰🇷 KR_2617 |46.37Mb
-      - 🇭🇰 HK_2086 |27.22Mb
-      - 🇺🇸 US_4398
-      - 🇨🇳 CN_854 | 8.63Mb
-      - 🇨🇳 CN_866 |17.69Mb
-      - 🇳🇱
-      - 🇳🇱 NL_2867
-      - 🇨🇳 CN_864 | 5.43Mb
-      - 🇺🇸 US_3834 |13.12Mb
-      - 🇺🇸 US_3965
-      - ZZ_5023
-      - 🇷🇴
-      - 🇺🇸 US_4834 |15.59Mb
-      - 🇰🇷 KR_2598 |37.66Mb
-      - 🇺🇸 US_4137
-      - 🇺🇸 US_4840 |10.64Mb
-      - 🇨🇳 CN_856 |13.09Mb
-      - 🇺🇸 2
-      - 🇺🇸 US_4599
-      - 🏁 2
-      - _128
-      - 🇨🇳 CN_872 | 7.74Mb
-      - 🇺🇸 US_4352
-      - 🇭🇰 HK_2098 | 8.14Mb
-      - 🇺🇸 US_4263
-      - 🇺🇸 US_4001
-      - 🇺🇸 3
-      - 🇨🇿
-      - 🇺🇸 US_3866
-      - 🇺🇸 US_4835 |14.79Mb
+      - 🇭🇰 HK_2188 | 5.18Mb
+      - 🇨🇳 CN_932
+      - 2.58.242.131:35294
+      - 🇨🇳 CN_941 | 3.72Mb
+      - 🇭🇰 HK_2185 |48.45Mb
+      - 🇨🇳 CN_939 |42.11Mb
+      - 🇨🇳 TW_3682 |10.68Mb
+      - 🇨🇳 CN_951
+      - 🇭🇰 HK_2183 |28.32Mb
+      - 2.58.242.51:34815
+      - 2.58.242.51:38033
+      - 2.58.242.51:31944
+      - 2.58.242.51:33992
+      - 2.58.242.51:35294
+      - 2.58.242.51:31572
+      - 🇨🇳 CN_952 | 9.24Mb
+      - 2.58.242.51:40093
+      - ffrenzy.tk:11443
+      - 2.58.242.51:31764
+      - 🇨🇳 CN_947 | 4.66Mb
+      - 🇸🇬 SG_3595 |15.17Mb
+      - 🇨🇳 CN_935 |33.04Mb
+      - 🇨🇳 CN_950 |30.14Mb
+      - 🇨🇳 CN_940 | 2.62Mb
+      - 🇭🇰 HK_2233 |40.95Mb
+      - 🇨🇳 CN_931
+      - 2.58.242.43:39772
+      - 2.58.242.51:37588
+      - 🇭🇰 HK_2234 |41.95Mb
+      - 🇨🇳 CN_937 |11.17Mb
+      - 🇨🇳 CN_944 | 1.84Mb
+      - 🇨🇳 CN_945 |30.03Mb
+      - 🇨🇳 CN_936 |16.06Mb
+      - 2.58.242.51:37473
+      - 🇨🇳 CN_949 |24.29Mb
+      - 🇨🇳 CN_938 |13.83Mb
+      - 2.58.242.131:31764
+      - 🇯🇵 JP_2623 |35.43Mb
+      - 🇨🇳 CN_943 | 2.73Mb
+      - 🇭🇰 HK_2232 |25.17Mb
+      - 2.58.242.131:38033
+      - 2.58.242.131:40093
+      - 🇸🇬 SG_3596 |19.15Mb
+      - 🇯🇵 JP_2685 |40.68Mb
+      - 🇸🇬 SG_3567 | 3.47Mb
+      - 🇨🇳 CN_933 | 7.97Mb
+      - 2.58.242.43:38033
+      - 2.58.242.131:33992
+      - 2.58.242.131:39772
+      - 2.58.242.131:37588
+      - 2.58.242.131:34815
+      - 2.58.242.131:31944
+      - 🇨🇳 CN_942 | 5.19Mb
+      - 🇯🇵 JP_2699 |14.15Mb
+      - 🇭🇰 HK_2181 |29.78Mb
+      - 2.58.242.51:39772
+      - 🇨🇳 TW_3681 |48.88Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_849 |14.40Mb
-      - 🇨🇳 CN_865 | 9.28Mb
-      - 🇨🇳 CN_852 | 9.36Mb
-      - 🇨🇳 CN_874 |20.97Mb
-      - 🇨🇳 CN_850 |16.11Mb
-      - 🇨🇳 CN_876 |29.09Mb
-      - 🇨🇳 TW_3577 | 1.38Mb
-      - 🇨🇳 CN_875 |19.61Mb
-      - 🇨🇳 CN_865 |28.42Mb
-      - 🇭🇰 HK_2147 |25.75Mb
-      - 🇨🇳 CN_867 |23.53Mb
-      - 🇨🇳 CN_849 |12.83Mb
-      - 🇯🇵 JP_2575 |19.08Mb
-      - 🇨🇳 CN_851 |19.94Mb
-      - 🇭🇰 HK_2100 |27.46Mb
-      - 🇭🇰 HK_2095 | 5.59Mb
-      - 🇭🇰 HK_2145 |20.41Mb
-      - 🇭🇰 HK_2150 |24.57Mb
-      - 🇭🇰 HK_2169 |26.08Mb
-      - 🇨🇳 CN_864 | 9.38Mb
-      - 🇰🇷 KR_2619 | 3.23Mb
-      - 🇭🇰 HK_2148 |13.20Mb
-      - 🇭🇰 HK_2151 | 8.22Mb
-      - 🇨🇳 CN_859 |25.24Mb
-      - 🇨🇳 CN_859 |27.69Mb
-      - 🇭🇰 HK_2096 |19.43Mb
-      - 🇨🇳 CN_870 |12.11Mb
-      - 🇨🇳 CN_869 |10.03Mb
-      - 🇨🇳 TW_3578 | 1.61Mb
-      - 🏁
-      - 🇺🇸
-      - 🇰🇷 KR_2642 |13.55Mb
-      - 🇭🇰 HK_2091 |828.88Mb
-      - 🇨🇳 CN_855 | 9.42Mb
-      - 🇨🇳 CN_858 |36.62Mb
-      - 🇯🇵 JP_2538 |26.70Mb
-      - 🇨🇳 CN_839 |11.17Mb
-      - 🇰🇷 KR_2617 |46.37Mb
-      - 🇭🇰 HK_2086 |27.22Mb
-      - 🇺🇸 US_4398
-      - 🇨🇳 CN_854 | 8.63Mb
-      - 🇨🇳 CN_866 |17.69Mb
-      - 🇳🇱
-      - 🇳🇱 NL_2867
-      - 🇨🇳 CN_864 | 5.43Mb
-      - 🇺🇸 US_3834 |13.12Mb
-      - 🇺🇸 US_3965
-      - ZZ_5023
-      - 🇷🇴
-      - 🇺🇸 US_4834 |15.59Mb
-      - 🇰🇷 KR_2598 |37.66Mb
-      - 🇺🇸 US_4137
-      - 🇺🇸 US_4840 |10.64Mb
-      - 🇨🇳 CN_856 |13.09Mb
-      - 🇺🇸 2
-      - 🇺🇸 US_4599
-      - 🏁 2
-      - _128
-      - 🇨🇳 CN_872 | 7.74Mb
-      - 🇺🇸 US_4352
-      - 🇭🇰 HK_2098 | 8.14Mb
-      - 🇺🇸 US_4263
-      - 🇺🇸 US_4001
-      - 🇺🇸 3
-      - 🇨🇿
-      - 🇺🇸 US_3866
-      - 🇺🇸 US_4835 |14.79Mb
+      - 🇭🇰 HK_2188 | 5.18Mb
+      - 🇨🇳 CN_932
+      - 2.58.242.131:35294
+      - 🇨🇳 CN_941 | 3.72Mb
+      - 🇭🇰 HK_2185 |48.45Mb
+      - 🇨🇳 CN_939 |42.11Mb
+      - 🇨🇳 TW_3682 |10.68Mb
+      - 🇨🇳 CN_951
+      - 🇭🇰 HK_2183 |28.32Mb
+      - 2.58.242.51:34815
+      - 2.58.242.51:38033
+      - 2.58.242.51:31944
+      - 2.58.242.51:33992
+      - 2.58.242.51:35294
+      - 2.58.242.51:31572
+      - 🇨🇳 CN_952 | 9.24Mb
+      - 2.58.242.51:40093
+      - ffrenzy.tk:11443
+      - 2.58.242.51:31764
+      - 🇨🇳 CN_947 | 4.66Mb
+      - 🇸🇬 SG_3595 |15.17Mb
+      - 🇨🇳 CN_935 |33.04Mb
+      - 🇨🇳 CN_950 |30.14Mb
+      - 🇨🇳 CN_940 | 2.62Mb
+      - 🇭🇰 HK_2233 |40.95Mb
+      - 🇨🇳 CN_931
+      - 2.58.242.43:39772
+      - 2.58.242.51:37588
+      - 🇭🇰 HK_2234 |41.95Mb
+      - 🇨🇳 CN_937 |11.17Mb
+      - 🇨🇳 CN_944 | 1.84Mb
+      - 🇨🇳 CN_945 |30.03Mb
+      - 🇨🇳 CN_936 |16.06Mb
+      - 2.58.242.51:37473
+      - 🇨🇳 CN_949 |24.29Mb
+      - 🇨🇳 CN_938 |13.83Mb
+      - 2.58.242.131:31764
+      - 🇯🇵 JP_2623 |35.43Mb
+      - 🇨🇳 CN_943 | 2.73Mb
+      - 🇭🇰 HK_2232 |25.17Mb
+      - 2.58.242.131:38033
+      - 2.58.242.131:40093
+      - 🇸🇬 SG_3596 |19.15Mb
+      - 🇯🇵 JP_2685 |40.68Mb
+      - 🇸🇬 SG_3567 | 3.47Mb
+      - 🇨🇳 CN_933 | 7.97Mb
+      - 2.58.242.43:38033
+      - 2.58.242.131:33992
+      - 2.58.242.131:39772
+      - 2.58.242.131:37588
+      - 2.58.242.131:34815
+      - 2.58.242.131:31944
+      - 🇨🇳 CN_942 | 5.19Mb
+      - 🇯🇵 JP_2699 |14.15Mb
+      - 🇭🇰 HK_2181 |29.78Mb
+      - 2.58.242.51:39772
+      - 🇨🇳 TW_3681 |48.88Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 CN_849 |14.40Mb
-      - 🇨🇳 CN_865 | 9.28Mb
-      - 🇨🇳 CN_852 | 9.36Mb
-      - 🇨🇳 CN_874 |20.97Mb
-      - 🇨🇳 CN_850 |16.11Mb
-      - 🇨🇳 CN_876 |29.09Mb
-      - 🇨🇳 TW_3577 | 1.38Mb
-      - 🇨🇳 CN_875 |19.61Mb
-      - 🇨🇳 CN_865 |28.42Mb
-      - 🇭🇰 HK_2147 |25.75Mb
-      - 🇨🇳 CN_867 |23.53Mb
-      - 🇨🇳 CN_849 |12.83Mb
-      - 🇯🇵 JP_2575 |19.08Mb
-      - 🇨🇳 CN_851 |19.94Mb
-      - 🇭🇰 HK_2100 |27.46Mb
-      - 🇭🇰 HK_2095 | 5.59Mb
-      - 🇭🇰 HK_2145 |20.41Mb
-      - 🇭🇰 HK_2150 |24.57Mb
-      - 🇭🇰 HK_2169 |26.08Mb
-      - 🇨🇳 CN_864 | 9.38Mb
-      - 🇰🇷 KR_2619 | 3.23Mb
-      - 🇭🇰 HK_2148 |13.20Mb
-      - 🇭🇰 HK_2151 | 8.22Mb
-      - 🇨🇳 CN_859 |25.24Mb
-      - 🇨🇳 CN_859 |27.69Mb
-      - 🇭🇰 HK_2096 |19.43Mb
-      - 🇨🇳 CN_870 |12.11Mb
-      - 🇨🇳 CN_869 |10.03Mb
-      - 🇨🇳 TW_3578 | 1.61Mb
-      - 🏁
-      - 🇺🇸
-      - 🇰🇷 KR_2642 |13.55Mb
-      - 🇭🇰 HK_2091 |828.88Mb
-      - 🇨🇳 CN_855 | 9.42Mb
-      - 🇨🇳 CN_858 |36.62Mb
-      - 🇯🇵 JP_2538 |26.70Mb
-      - 🇨🇳 CN_839 |11.17Mb
-      - 🇰🇷 KR_2617 |46.37Mb
-      - 🇭🇰 HK_2086 |27.22Mb
-      - 🇺🇸 US_4398
-      - 🇨🇳 CN_854 | 8.63Mb
-      - 🇨🇳 CN_866 |17.69Mb
-      - 🇳🇱
-      - 🇳🇱 NL_2867
-      - 🇨🇳 CN_864 | 5.43Mb
-      - 🇺🇸 US_3834 |13.12Mb
-      - 🇺🇸 US_3965
-      - ZZ_5023
-      - 🇷🇴
-      - 🇺🇸 US_4834 |15.59Mb
-      - 🇰🇷 KR_2598 |37.66Mb
-      - 🇺🇸 US_4137
-      - 🇺🇸 US_4840 |10.64Mb
-      - 🇨🇳 CN_856 |13.09Mb
-      - 🇺🇸 2
-      - 🇺🇸 US_4599
-      - 🏁 2
-      - _128
-      - 🇨🇳 CN_872 | 7.74Mb
-      - 🇺🇸 US_4352
-      - 🇭🇰 HK_2098 | 8.14Mb
-      - 🇺🇸 US_4263
-      - 🇺🇸 US_4001
-      - 🇺🇸 3
-      - 🇨🇿
-      - 🇺🇸 US_3866
-      - 🇺🇸 US_4835 |14.79Mb
+      - 🇭🇰 HK_2188 | 5.18Mb
+      - 🇨🇳 CN_932
+      - 2.58.242.131:35294
+      - 🇨🇳 CN_941 | 3.72Mb
+      - 🇭🇰 HK_2185 |48.45Mb
+      - 🇨🇳 CN_939 |42.11Mb
+      - 🇨🇳 TW_3682 |10.68Mb
+      - 🇨🇳 CN_951
+      - 🇭🇰 HK_2183 |28.32Mb
+      - 2.58.242.51:34815
+      - 2.58.242.51:38033
+      - 2.58.242.51:31944
+      - 2.58.242.51:33992
+      - 2.58.242.51:35294
+      - 2.58.242.51:31572
+      - 🇨🇳 CN_952 | 9.24Mb
+      - 2.58.242.51:40093
+      - ffrenzy.tk:11443
+      - 2.58.242.51:31764
+      - 🇨🇳 CN_947 | 4.66Mb
+      - 🇸🇬 SG_3595 |15.17Mb
+      - 🇨🇳 CN_935 |33.04Mb
+      - 🇨🇳 CN_950 |30.14Mb
+      - 🇨🇳 CN_940 | 2.62Mb
+      - 🇭🇰 HK_2233 |40.95Mb
+      - 🇨🇳 CN_931
+      - 2.58.242.43:39772
+      - 2.58.242.51:37588
+      - 🇭🇰 HK_2234 |41.95Mb
+      - 🇨🇳 CN_937 |11.17Mb
+      - 🇨🇳 CN_944 | 1.84Mb
+      - 🇨🇳 CN_945 |30.03Mb
+      - 🇨🇳 CN_936 |16.06Mb
+      - 2.58.242.51:37473
+      - 🇨🇳 CN_949 |24.29Mb
+      - 🇨🇳 CN_938 |13.83Mb
+      - 2.58.242.131:31764
+      - 🇯🇵 JP_2623 |35.43Mb
+      - 🇨🇳 CN_943 | 2.73Mb
+      - 🇭🇰 HK_2232 |25.17Mb
+      - 2.58.242.131:38033
+      - 2.58.242.131:40093
+      - 🇸🇬 SG_3596 |19.15Mb
+      - 🇯🇵 JP_2685 |40.68Mb
+      - 🇸🇬 SG_3567 | 3.47Mb
+      - 🇨🇳 CN_933 | 7.97Mb
+      - 2.58.242.43:38033
+      - 2.58.242.131:33992
+      - 2.58.242.131:39772
+      - 2.58.242.131:37588
+      - 2.58.242.131:34815
+      - 2.58.242.131:31944
+      - 🇨🇳 CN_942 | 5.19Mb
+      - 🇯🇵 JP_2699 |14.15Mb
+      - 🇭🇰 HK_2181 |29.78Mb
+      - 2.58.242.51:39772
+      - 🇨🇳 TW_3681 |48.88Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_849 |14.40Mb
-      - 🇨🇳 CN_865 | 9.28Mb
-      - 🇨🇳 CN_852 | 9.36Mb
-      - 🇨🇳 CN_874 |20.97Mb
-      - 🇨🇳 CN_850 |16.11Mb
-      - 🇨🇳 CN_876 |29.09Mb
-      - 🇨🇳 TW_3577 | 1.38Mb
-      - 🇨🇳 CN_875 |19.61Mb
-      - 🇨🇳 CN_865 |28.42Mb
-      - 🇭🇰 HK_2147 |25.75Mb
-      - 🇨🇳 CN_867 |23.53Mb
-      - 🇨🇳 CN_849 |12.83Mb
-      - 🇯🇵 JP_2575 |19.08Mb
-      - 🇨🇳 CN_851 |19.94Mb
-      - 🇭🇰 HK_2100 |27.46Mb
-      - 🇭🇰 HK_2095 | 5.59Mb
-      - 🇭🇰 HK_2145 |20.41Mb
-      - 🇭🇰 HK_2150 |24.57Mb
-      - 🇭🇰 HK_2169 |26.08Mb
-      - 🇨🇳 CN_864 | 9.38Mb
-      - 🇰🇷 KR_2619 | 3.23Mb
-      - 🇭🇰 HK_2148 |13.20Mb
-      - 🇭🇰 HK_2151 | 8.22Mb
-      - 🇨🇳 CN_859 |25.24Mb
-      - 🇨🇳 CN_859 |27.69Mb
-      - 🇭🇰 HK_2096 |19.43Mb
-      - 🇨🇳 CN_870 |12.11Mb
-      - 🇨🇳 CN_869 |10.03Mb
-      - 🇨🇳 TW_3578 | 1.61Mb
-      - 🏁
-      - 🇺🇸
-      - 🇰🇷 KR_2642 |13.55Mb
-      - 🇭🇰 HK_2091 |828.88Mb
-      - 🇨🇳 CN_855 | 9.42Mb
-      - 🇨🇳 CN_858 |36.62Mb
-      - 🇯🇵 JP_2538 |26.70Mb
-      - 🇨🇳 CN_839 |11.17Mb
-      - 🇰🇷 KR_2617 |46.37Mb
-      - 🇭🇰 HK_2086 |27.22Mb
-      - 🇺🇸 US_4398
-      - 🇨🇳 CN_854 | 8.63Mb
-      - 🇨🇳 CN_866 |17.69Mb
-      - 🇳🇱
-      - 🇳🇱 NL_2867
-      - 🇨🇳 CN_864 | 5.43Mb
-      - 🇺🇸 US_3834 |13.12Mb
-      - 🇺🇸 US_3965
-      - ZZ_5023
-      - 🇷🇴
-      - 🇺🇸 US_4834 |15.59Mb
-      - 🇰🇷 KR_2598 |37.66Mb
-      - 🇺🇸 US_4137
-      - 🇺🇸 US_4840 |10.64Mb
-      - 🇨🇳 CN_856 |13.09Mb
-      - 🇺🇸 2
-      - 🇺🇸 US_4599
-      - 🏁 2
-      - _128
-      - 🇨🇳 CN_872 | 7.74Mb
-      - 🇺🇸 US_4352
-      - 🇭🇰 HK_2098 | 8.14Mb
-      - 🇺🇸 US_4263
-      - 🇺🇸 US_4001
-      - 🇺🇸 3
-      - 🇨🇿
-      - 🇺🇸 US_3866
-      - 🇺🇸 US_4835 |14.79Mb
+      - 🇭🇰 HK_2188 | 5.18Mb
+      - 🇨🇳 CN_932
+      - 2.58.242.131:35294
+      - 🇨🇳 CN_941 | 3.72Mb
+      - 🇭🇰 HK_2185 |48.45Mb
+      - 🇨🇳 CN_939 |42.11Mb
+      - 🇨🇳 TW_3682 |10.68Mb
+      - 🇨🇳 CN_951
+      - 🇭🇰 HK_2183 |28.32Mb
+      - 2.58.242.51:34815
+      - 2.58.242.51:38033
+      - 2.58.242.51:31944
+      - 2.58.242.51:33992
+      - 2.58.242.51:35294
+      - 2.58.242.51:31572
+      - 🇨🇳 CN_952 | 9.24Mb
+      - 2.58.242.51:40093
+      - ffrenzy.tk:11443
+      - 2.58.242.51:31764
+      - 🇨🇳 CN_947 | 4.66Mb
+      - 🇸🇬 SG_3595 |15.17Mb
+      - 🇨🇳 CN_935 |33.04Mb
+      - 🇨🇳 CN_950 |30.14Mb
+      - 🇨🇳 CN_940 | 2.62Mb
+      - 🇭🇰 HK_2233 |40.95Mb
+      - 🇨🇳 CN_931
+      - 2.58.242.43:39772
+      - 2.58.242.51:37588
+      - 🇭🇰 HK_2234 |41.95Mb
+      - 🇨🇳 CN_937 |11.17Mb
+      - 🇨🇳 CN_944 | 1.84Mb
+      - 🇨🇳 CN_945 |30.03Mb
+      - 🇨🇳 CN_936 |16.06Mb
+      - 2.58.242.51:37473
+      - 🇨🇳 CN_949 |24.29Mb
+      - 🇨🇳 CN_938 |13.83Mb
+      - 2.58.242.131:31764
+      - 🇯🇵 JP_2623 |35.43Mb
+      - 🇨🇳 CN_943 | 2.73Mb
+      - 🇭🇰 HK_2232 |25.17Mb
+      - 2.58.242.131:38033
+      - 2.58.242.131:40093
+      - 🇸🇬 SG_3596 |19.15Mb
+      - 🇯🇵 JP_2685 |40.68Mb
+      - 🇸🇬 SG_3567 | 3.47Mb
+      - 🇨🇳 CN_933 | 7.97Mb
+      - 2.58.242.43:38033
+      - 2.58.242.131:33992
+      - 2.58.242.131:39772
+      - 2.58.242.131:37588
+      - 2.58.242.131:34815
+      - 2.58.242.131:31944
+      - 🇨🇳 CN_942 | 5.19Mb
+      - 🇯🇵 JP_2699 |14.15Mb
+      - 🇭🇰 HK_2181 |29.78Mb
+      - 2.58.242.51:39772
+      - 🇨🇳 TW_3681 |48.88Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_849 |14.40Mb
-      - 🇨🇳 CN_865 | 9.28Mb
-      - 🇨🇳 CN_852 | 9.36Mb
-      - 🇨🇳 CN_874 |20.97Mb
-      - 🇨🇳 CN_850 |16.11Mb
-      - 🇨🇳 CN_876 |29.09Mb
-      - 🇨🇳 TW_3577 | 1.38Mb
-      - 🇨🇳 CN_875 |19.61Mb
-      - 🇨🇳 CN_865 |28.42Mb
-      - 🇭🇰 HK_2147 |25.75Mb
-      - 🇨🇳 CN_867 |23.53Mb
-      - 🇨🇳 CN_849 |12.83Mb
-      - 🇯🇵 JP_2575 |19.08Mb
-      - 🇨🇳 CN_851 |19.94Mb
-      - 🇭🇰 HK_2100 |27.46Mb
-      - 🇭🇰 HK_2095 | 5.59Mb
-      - 🇭🇰 HK_2145 |20.41Mb
-      - 🇭🇰 HK_2150 |24.57Mb
-      - 🇭🇰 HK_2169 |26.08Mb
-      - 🇨🇳 CN_864 | 9.38Mb
-      - 🇰🇷 KR_2619 | 3.23Mb
-      - 🇭🇰 HK_2148 |13.20Mb
-      - 🇭🇰 HK_2151 | 8.22Mb
-      - 🇨🇳 CN_859 |25.24Mb
-      - 🇨🇳 CN_859 |27.69Mb
-      - 🇭🇰 HK_2096 |19.43Mb
-      - 🇨🇳 CN_870 |12.11Mb
-      - 🇨🇳 CN_869 |10.03Mb
-      - 🇨🇳 TW_3578 | 1.61Mb
-      - 🏁
-      - 🇺🇸
-      - 🇰🇷 KR_2642 |13.55Mb
-      - 🇭🇰 HK_2091 |828.88Mb
-      - 🇨🇳 CN_855 | 9.42Mb
-      - 🇨🇳 CN_858 |36.62Mb
-      - 🇯🇵 JP_2538 |26.70Mb
-      - 🇨🇳 CN_839 |11.17Mb
-      - 🇰🇷 KR_2617 |46.37Mb
-      - 🇭🇰 HK_2086 |27.22Mb
-      - 🇺🇸 US_4398
-      - 🇨🇳 CN_854 | 8.63Mb
-      - 🇨🇳 CN_866 |17.69Mb
-      - 🇳🇱
-      - 🇳🇱 NL_2867
-      - 🇨🇳 CN_864 | 5.43Mb
-      - 🇺🇸 US_3834 |13.12Mb
-      - 🇺🇸 US_3965
-      - ZZ_5023
-      - 🇷🇴
-      - 🇺🇸 US_4834 |15.59Mb
-      - 🇰🇷 KR_2598 |37.66Mb
-      - 🇺🇸 US_4137
-      - 🇺🇸 US_4840 |10.64Mb
-      - 🇨🇳 CN_856 |13.09Mb
-      - 🇺🇸 2
-      - 🇺🇸 US_4599
-      - 🏁 2
-      - _128
-      - 🇨🇳 CN_872 | 7.74Mb
-      - 🇺🇸 US_4352
-      - 🇭🇰 HK_2098 | 8.14Mb
-      - 🇺🇸 US_4263
-      - 🇺🇸 US_4001
-      - 🇺🇸 3
-      - 🇨🇿
-      - 🇺🇸 US_3866
-      - 🇺🇸 US_4835 |14.79Mb
+      - 🇭🇰 HK_2188 | 5.18Mb
+      - 🇨🇳 CN_932
+      - 2.58.242.131:35294
+      - 🇨🇳 CN_941 | 3.72Mb
+      - 🇭🇰 HK_2185 |48.45Mb
+      - 🇨🇳 CN_939 |42.11Mb
+      - 🇨🇳 TW_3682 |10.68Mb
+      - 🇨🇳 CN_951
+      - 🇭🇰 HK_2183 |28.32Mb
+      - 2.58.242.51:34815
+      - 2.58.242.51:38033
+      - 2.58.242.51:31944
+      - 2.58.242.51:33992
+      - 2.58.242.51:35294
+      - 2.58.242.51:31572
+      - 🇨🇳 CN_952 | 9.24Mb
+      - 2.58.242.51:40093
+      - ffrenzy.tk:11443
+      - 2.58.242.51:31764
+      - 🇨🇳 CN_947 | 4.66Mb
+      - 🇸🇬 SG_3595 |15.17Mb
+      - 🇨🇳 CN_935 |33.04Mb
+      - 🇨🇳 CN_950 |30.14Mb
+      - 🇨🇳 CN_940 | 2.62Mb
+      - 🇭🇰 HK_2233 |40.95Mb
+      - 🇨🇳 CN_931
+      - 2.58.242.43:39772
+      - 2.58.242.51:37588
+      - 🇭🇰 HK_2234 |41.95Mb
+      - 🇨🇳 CN_937 |11.17Mb
+      - 🇨🇳 CN_944 | 1.84Mb
+      - 🇨🇳 CN_945 |30.03Mb
+      - 🇨🇳 CN_936 |16.06Mb
+      - 2.58.242.51:37473
+      - 🇨🇳 CN_949 |24.29Mb
+      - 🇨🇳 CN_938 |13.83Mb
+      - 2.58.242.131:31764
+      - 🇯🇵 JP_2623 |35.43Mb
+      - 🇨🇳 CN_943 | 2.73Mb
+      - 🇭🇰 HK_2232 |25.17Mb
+      - 2.58.242.131:38033
+      - 2.58.242.131:40093
+      - 🇸🇬 SG_3596 |19.15Mb
+      - 🇯🇵 JP_2685 |40.68Mb
+      - 🇸🇬 SG_3567 | 3.47Mb
+      - 🇨🇳 CN_933 | 7.97Mb
+      - 2.58.242.43:38033
+      - 2.58.242.131:33992
+      - 2.58.242.131:39772
+      - 2.58.242.131:37588
+      - 2.58.242.131:34815
+      - 2.58.242.131:31944
+      - 🇨🇳 CN_942 | 5.19Mb
+      - 🇯🇵 JP_2699 |14.15Mb
+      - 🇭🇰 HK_2181 |29.78Mb
+      - 2.58.242.51:39772
+      - 🇨🇳 TW_3681 |48.88Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -602,73 +522,63 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_849 |14.40Mb
-      - 🇨🇳 CN_865 | 9.28Mb
-      - 🇨🇳 CN_852 | 9.36Mb
-      - 🇨🇳 CN_874 |20.97Mb
-      - 🇨🇳 CN_850 |16.11Mb
-      - 🇨🇳 CN_876 |29.09Mb
-      - 🇨🇳 TW_3577 | 1.38Mb
-      - 🇨🇳 CN_875 |19.61Mb
-      - 🇨🇳 CN_865 |28.42Mb
-      - 🇭🇰 HK_2147 |25.75Mb
-      - 🇨🇳 CN_867 |23.53Mb
-      - 🇨🇳 CN_849 |12.83Mb
-      - 🇯🇵 JP_2575 |19.08Mb
-      - 🇨🇳 CN_851 |19.94Mb
-      - 🇭🇰 HK_2100 |27.46Mb
-      - 🇭🇰 HK_2095 | 5.59Mb
-      - 🇭🇰 HK_2145 |20.41Mb
-      - 🇭🇰 HK_2150 |24.57Mb
-      - 🇭🇰 HK_2169 |26.08Mb
-      - 🇨🇳 CN_864 | 9.38Mb
-      - 🇰🇷 KR_2619 | 3.23Mb
-      - 🇭🇰 HK_2148 |13.20Mb
-      - 🇭🇰 HK_2151 | 8.22Mb
-      - 🇨🇳 CN_859 |25.24Mb
-      - 🇨🇳 CN_859 |27.69Mb
-      - 🇭🇰 HK_2096 |19.43Mb
-      - 🇨🇳 CN_870 |12.11Mb
-      - 🇨🇳 CN_869 |10.03Mb
-      - 🇨🇳 TW_3578 | 1.61Mb
-      - 🏁
-      - 🇺🇸
-      - 🇰🇷 KR_2642 |13.55Mb
-      - 🇭🇰 HK_2091 |828.88Mb
-      - 🇨🇳 CN_855 | 9.42Mb
-      - 🇨🇳 CN_858 |36.62Mb
-      - 🇯🇵 JP_2538 |26.70Mb
-      - 🇨🇳 CN_839 |11.17Mb
-      - 🇰🇷 KR_2617 |46.37Mb
-      - 🇭🇰 HK_2086 |27.22Mb
-      - 🇺🇸 US_4398
-      - 🇨🇳 CN_854 | 8.63Mb
-      - 🇨🇳 CN_866 |17.69Mb
-      - 🇳🇱
-      - 🇳🇱 NL_2867
-      - 🇨🇳 CN_864 | 5.43Mb
-      - 🇺🇸 US_3834 |13.12Mb
-      - 🇺🇸 US_3965
-      - ZZ_5023
-      - 🇷🇴
-      - 🇺🇸 US_4834 |15.59Mb
-      - 🇰🇷 KR_2598 |37.66Mb
-      - 🇺🇸 US_4137
-      - 🇺🇸 US_4840 |10.64Mb
-      - 🇨🇳 CN_856 |13.09Mb
-      - 🇺🇸 2
-      - 🇺🇸 US_4599
-      - 🏁 2
-      - _128
-      - 🇨🇳 CN_872 | 7.74Mb
-      - 🇺🇸 US_4352
-      - 🇭🇰 HK_2098 | 8.14Mb
-      - 🇺🇸 US_4263
-      - 🇺🇸 US_4001
-      - 🇺🇸 3
-      - 🇨🇿
-      - 🇺🇸 US_3866
-      - 🇺🇸 US_4835 |14.79Mb
+      - 🇭🇰 HK_2188 | 5.18Mb
+      - 🇨🇳 CN_932
+      - 2.58.242.131:35294
+      - 🇨🇳 CN_941 | 3.72Mb
+      - 🇭🇰 HK_2185 |48.45Mb
+      - 🇨🇳 CN_939 |42.11Mb
+      - 🇨🇳 TW_3682 |10.68Mb
+      - 🇨🇳 CN_951
+      - 🇭🇰 HK_2183 |28.32Mb
+      - 2.58.242.51:34815
+      - 2.58.242.51:38033
+      - 2.58.242.51:31944
+      - 2.58.242.51:33992
+      - 2.58.242.51:35294
+      - 2.58.242.51:31572
+      - 🇨🇳 CN_952 | 9.24Mb
+      - 2.58.242.51:40093
+      - ffrenzy.tk:11443
+      - 2.58.242.51:31764
+      - 🇨🇳 CN_947 | 4.66Mb
+      - 🇸🇬 SG_3595 |15.17Mb
+      - 🇨🇳 CN_935 |33.04Mb
+      - 🇨🇳 CN_950 |30.14Mb
+      - 🇨🇳 CN_940 | 2.62Mb
+      - 🇭🇰 HK_2233 |40.95Mb
+      - 🇨🇳 CN_931
+      - 2.58.242.43:39772
+      - 2.58.242.51:37588
+      - 🇭🇰 HK_2234 |41.95Mb
+      - 🇨🇳 CN_937 |11.17Mb
+      - 🇨🇳 CN_944 | 1.84Mb
+      - 🇨🇳 CN_945 |30.03Mb
+      - 🇨🇳 CN_936 |16.06Mb
+      - 2.58.242.51:37473
+      - 🇨🇳 CN_949 |24.29Mb
+      - 🇨🇳 CN_938 |13.83Mb
+      - 2.58.242.131:31764
+      - 🇯🇵 JP_2623 |35.43Mb
+      - 🇨🇳 CN_943 | 2.73Mb
+      - 🇭🇰 HK_2232 |25.17Mb
+      - 2.58.242.131:38033
+      - 2.58.242.131:40093
+      - 🇸🇬 SG_3596 |19.15Mb
+      - 🇯🇵 JP_2685 |40.68Mb
+      - 🇸🇬 SG_3567 | 3.47Mb
+      - 🇨🇳 CN_933 | 7.97Mb
+      - 2.58.242.43:38033
+      - 2.58.242.131:33992
+      - 2.58.242.131:39772
+      - 2.58.242.131:37588
+      - 2.58.242.131:34815
+      - 2.58.242.131:31944
+      - 🇨🇳 CN_942 | 5.19Mb
+      - 🇯🇵 JP_2699 |14.15Mb
+      - 🇭🇰 HK_2181 |29.78Mb
+      - 2.58.242.51:39772
+      - 🇨🇳 TW_3681 |48.88Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
