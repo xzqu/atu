@@ -5,221 +5,221 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN_937, server: cn2.relay.iplc.pro, port: 52010, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_935 | 9.18Mb, server: cn2.relay.iplc.pro, port: 52009, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_2169 | 7.49Mb, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_940 | 1.88Mb, server: cn2.relay.iplc.pro, port: 52012, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_933 |40.30Mb, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: ffrenzy.tk:11443, server: ffrenzy.tk, port: 11443, type: ss, cipher: chacha20-ietf-poly1305, password: 543c3bff-3d9b-41b6-800e-a8ae3eb0712a}
-  - {name: 🇨🇳 CN_934, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_941 |13.38Mb, server: cn2.relay.iplc.pro, port: 52003, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_2170 | 1.74Mb, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_938 |22.76Mb, server: cn2.relay.iplc.pro, port: 52006, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_947 |11.10Mb, server: cn1.relay.iplc.pro, port: 52006, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 2.58.242.43:39772, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 HK_2171 |54.40Mb, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_939 | 2.19Mb, server: cn2.relay.iplc.pro, port: 52007, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_936 | 3.70Mb, server: cn1.relay.iplc.pro, port: 52010, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_3570 |38.19Mb, server: v1-aws-sg-06.tudog.me, port: 80, type: vmess, uuid: 3dbe8ef8-0d92-3d40-9ce9-329677fa796c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-06.tudog.me}}
-  - {name: 🇭🇰 HK_2218 |17.77Mb, server: azhk.jiasu1.xyz, port: 10003, type: vmess, uuid: 484f2569-13e5-4945-ab46-7f63b4db8088, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hongyun, ws-headers: {Host: bing.com}}
-  - {name: 🇭🇰 HK_2173 | 2.74Mb, server: cmi.noten.cyou, port: 443, type: trojan, password: f924f95d-9356-4ed8-8177-cbbe397bc34c, sni: cmi.noten.cyou, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_943 |21.18Mb, server: 52.81.99.5, port: 52565, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 TW_3656 |58.85Mb, server: hk5.direct.iplc.pro, port: 52000, type: vmess, uuid: b65bfe88-0f6a-404a-b017-9b2bf499f447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_945 | 2.35Mb, server: 52.81.99.5, port: 62535, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.81.99.5}}
-  - {name: 🇸🇬 SG_3568 |50.18Mb, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: b8a4e40b-0458-3ba0-a28d-b5405de5bbe5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01, server: cn2.relay.iplc.pro, port: 52007, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02, server: cn1.relay.iplc.pro, port: 52010, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03, server: cn2.relay.iplc.pro, port: 52010, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04, server: bj.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05, server: cn1.relay.iplc.pro, port: 52004, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07, server: cn2.relay.iplc.pro, port: 52011, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08, server: 183.236.97.99, port: 62545, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.236.97.99}}
+  - {name: 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09, server: cn2.relay.iplc.pro, port: 52009, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10, server: cn2.relay.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11, server: cn1.relay.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12, server: cn1.relay.iplc.pro, port: 52011, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13, server: cn1.relay.iplc.pro, port: 52007, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14, server: hk1.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19, server: jp2.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20, server: ru1.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21, server: sg1.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_22, server: us1.direct.iplc.pro, port: 52000, type: vmess, uuid: 8724dc84-b57b-40a5-ba5c-da3a2e85b92a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN_937
-      - 🇨🇳 CN_935 | 9.18Mb
-      - 🇭🇰 HK_2169 | 7.49Mb
-      - 🇨🇳 CN_940 | 1.88Mb
-      - 🇨🇳 CN_933 |40.30Mb
-      - ffrenzy.tk:11443
-      - 🇨🇳 CN_934
-      - 🇨🇳 CN_941 |13.38Mb
-      - 🇭🇰 HK_2170 | 1.74Mb
-      - 🇨🇳 CN_938 |22.76Mb
-      - 🇨🇳 CN_947 |11.10Mb
-      - 2.58.242.43:39772
-      - 🇭🇰 HK_2171 |54.40Mb
-      - 🇨🇳 CN_939 | 2.19Mb
-      - 🇨🇳 CN_936 | 3.70Mb
-      - 🇸🇬 SG_3570 |38.19Mb
-      - 🇭🇰 HK_2218 |17.77Mb
-      - 🇭🇰 HK_2173 | 2.74Mb
-      - 🇨🇳 CN_943 |21.18Mb
-      - 🇨🇳 TW_3656 |58.85Mb
-      - 🇨🇳 CN_945 | 2.35Mb
-      - 🇸🇬 SG_3568 |50.18Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18
+      - 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN_937
-      - 🇨🇳 CN_935 | 9.18Mb
-      - 🇭🇰 HK_2169 | 7.49Mb
-      - 🇨🇳 CN_940 | 1.88Mb
-      - 🇨🇳 CN_933 |40.30Mb
-      - ffrenzy.tk:11443
-      - 🇨🇳 CN_934
-      - 🇨🇳 CN_941 |13.38Mb
-      - 🇭🇰 HK_2170 | 1.74Mb
-      - 🇨🇳 CN_938 |22.76Mb
-      - 🇨🇳 CN_947 |11.10Mb
-      - 2.58.242.43:39772
-      - 🇭🇰 HK_2171 |54.40Mb
-      - 🇨🇳 CN_939 | 2.19Mb
-      - 🇨🇳 CN_936 | 3.70Mb
-      - 🇸🇬 SG_3570 |38.19Mb
-      - 🇭🇰 HK_2218 |17.77Mb
-      - 🇭🇰 HK_2173 | 2.74Mb
-      - 🇨🇳 CN_943 |21.18Mb
-      - 🇨🇳 TW_3656 |58.85Mb
-      - 🇨🇳 CN_945 | 2.35Mb
-      - 🇸🇬 SG_3568 |50.18Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18
+      - 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_22
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN_937
-      - 🇨🇳 CN_935 | 9.18Mb
-      - 🇭🇰 HK_2169 | 7.49Mb
-      - 🇨🇳 CN_940 | 1.88Mb
-      - 🇨🇳 CN_933 |40.30Mb
-      - ffrenzy.tk:11443
-      - 🇨🇳 CN_934
-      - 🇨🇳 CN_941 |13.38Mb
-      - 🇭🇰 HK_2170 | 1.74Mb
-      - 🇨🇳 CN_938 |22.76Mb
-      - 🇨🇳 CN_947 |11.10Mb
-      - 2.58.242.43:39772
-      - 🇭🇰 HK_2171 |54.40Mb
-      - 🇨🇳 CN_939 | 2.19Mb
-      - 🇨🇳 CN_936 | 3.70Mb
-      - 🇸🇬 SG_3570 |38.19Mb
-      - 🇭🇰 HK_2218 |17.77Mb
-      - 🇭🇰 HK_2173 | 2.74Mb
-      - 🇨🇳 CN_943 |21.18Mb
-      - 🇨🇳 TW_3656 |58.85Mb
-      - 🇨🇳 CN_945 | 2.35Mb
-      - 🇸🇬 SG_3568 |50.18Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18
+      - 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_937
-      - 🇨🇳 CN_935 | 9.18Mb
-      - 🇭🇰 HK_2169 | 7.49Mb
-      - 🇨🇳 CN_940 | 1.88Mb
-      - 🇨🇳 CN_933 |40.30Mb
-      - ffrenzy.tk:11443
-      - 🇨🇳 CN_934
-      - 🇨🇳 CN_941 |13.38Mb
-      - 🇭🇰 HK_2170 | 1.74Mb
-      - 🇨🇳 CN_938 |22.76Mb
-      - 🇨🇳 CN_947 |11.10Mb
-      - 2.58.242.43:39772
-      - 🇭🇰 HK_2171 |54.40Mb
-      - 🇨🇳 CN_939 | 2.19Mb
-      - 🇨🇳 CN_936 | 3.70Mb
-      - 🇸🇬 SG_3570 |38.19Mb
-      - 🇭🇰 HK_2218 |17.77Mb
-      - 🇭🇰 HK_2173 | 2.74Mb
-      - 🇨🇳 CN_943 |21.18Mb
-      - 🇨🇳 TW_3656 |58.85Mb
-      - 🇨🇳 CN_945 | 2.35Mb
-      - 🇸🇬 SG_3568 |50.18Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18
+      - 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_22
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 CN_937
-      - 🇨🇳 CN_935 | 9.18Mb
-      - 🇭🇰 HK_2169 | 7.49Mb
-      - 🇨🇳 CN_940 | 1.88Mb
-      - 🇨🇳 CN_933 |40.30Mb
-      - ffrenzy.tk:11443
-      - 🇨🇳 CN_934
-      - 🇨🇳 CN_941 |13.38Mb
-      - 🇭🇰 HK_2170 | 1.74Mb
-      - 🇨🇳 CN_938 |22.76Mb
-      - 🇨🇳 CN_947 |11.10Mb
-      - 2.58.242.43:39772
-      - 🇭🇰 HK_2171 |54.40Mb
-      - 🇨🇳 CN_939 | 2.19Mb
-      - 🇨🇳 CN_936 | 3.70Mb
-      - 🇸🇬 SG_3570 |38.19Mb
-      - 🇭🇰 HK_2218 |17.77Mb
-      - 🇭🇰 HK_2173 | 2.74Mb
-      - 🇨🇳 CN_943 |21.18Mb
-      - 🇨🇳 TW_3656 |58.85Mb
-      - 🇨🇳 CN_945 | 2.35Mb
-      - 🇸🇬 SG_3568 |50.18Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18
+      - 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_937
-      - 🇨🇳 CN_935 | 9.18Mb
-      - 🇭🇰 HK_2169 | 7.49Mb
-      - 🇨🇳 CN_940 | 1.88Mb
-      - 🇨🇳 CN_933 |40.30Mb
-      - ffrenzy.tk:11443
-      - 🇨🇳 CN_934
-      - 🇨🇳 CN_941 |13.38Mb
-      - 🇭🇰 HK_2170 | 1.74Mb
-      - 🇨🇳 CN_938 |22.76Mb
-      - 🇨🇳 CN_947 |11.10Mb
-      - 2.58.242.43:39772
-      - 🇭🇰 HK_2171 |54.40Mb
-      - 🇨🇳 CN_939 | 2.19Mb
-      - 🇨🇳 CN_936 | 3.70Mb
-      - 🇸🇬 SG_3570 |38.19Mb
-      - 🇭🇰 HK_2218 |17.77Mb
-      - 🇭🇰 HK_2173 | 2.74Mb
-      - 🇨🇳 CN_943 |21.18Mb
-      - 🇨🇳 TW_3656 |58.85Mb
-      - 🇨🇳 CN_945 | 2.35Mb
-      - 🇸🇬 SG_3568 |50.18Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18
+      - 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_22
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_937
-      - 🇨🇳 CN_935 | 9.18Mb
-      - 🇭🇰 HK_2169 | 7.49Mb
-      - 🇨🇳 CN_940 | 1.88Mb
-      - 🇨🇳 CN_933 |40.30Mb
-      - ffrenzy.tk:11443
-      - 🇨🇳 CN_934
-      - 🇨🇳 CN_941 |13.38Mb
-      - 🇭🇰 HK_2170 | 1.74Mb
-      - 🇨🇳 CN_938 |22.76Mb
-      - 🇨🇳 CN_947 |11.10Mb
-      - 2.58.242.43:39772
-      - 🇭🇰 HK_2171 |54.40Mb
-      - 🇨🇳 CN_939 | 2.19Mb
-      - 🇨🇳 CN_936 | 3.70Mb
-      - 🇸🇬 SG_3570 |38.19Mb
-      - 🇭🇰 HK_2218 |17.77Mb
-      - 🇭🇰 HK_2173 | 2.74Mb
-      - 🇨🇳 CN_943 |21.18Mb
-      - 🇨🇳 TW_3656 |58.85Mb
-      - 🇨🇳 CN_945 | 2.35Mb
-      - 🇸🇬 SG_3568 |50.18Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18
+      - 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,28 +242,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_937
-      - 🇨🇳 CN_935 | 9.18Mb
-      - 🇭🇰 HK_2169 | 7.49Mb
-      - 🇨🇳 CN_940 | 1.88Mb
-      - 🇨🇳 CN_933 |40.30Mb
-      - ffrenzy.tk:11443
-      - 🇨🇳 CN_934
-      - 🇨🇳 CN_941 |13.38Mb
-      - 🇭🇰 HK_2170 | 1.74Mb
-      - 🇨🇳 CN_938 |22.76Mb
-      - 🇨🇳 CN_947 |11.10Mb
-      - 2.58.242.43:39772
-      - 🇭🇰 HK_2171 |54.40Mb
-      - 🇨🇳 CN_939 | 2.19Mb
-      - 🇨🇳 CN_936 | 3.70Mb
-      - 🇸🇬 SG_3570 |38.19Mb
-      - 🇭🇰 HK_2218 |17.77Mb
-      - 🇭🇰 HK_2173 | 2.74Mb
-      - 🇨🇳 CN_943 |21.18Mb
-      - 🇨🇳 TW_3656 |58.85Mb
-      - 🇨🇳 CN_945 | 2.35Mb
-      - 🇸🇬 SG_3568 |50.18Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_01
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_02
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_03
+      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_05
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_06
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_07
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_08
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_09
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_10
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_11
+      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_12
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_13
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_14
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_16
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_17
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_18
+      - 🇷🇴 Relay_🇷🇴RO-🇷🇴RO_19
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_21
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_22
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
