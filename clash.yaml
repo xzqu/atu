@@ -5,181 +5,285 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Relay_-🇹🇼TW_237, server: 183.236.57.52, port: 10003, type: vmess, uuid: 61a12800-a9f6-470b-b319-03736a99bc32, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_-🇭🇰HK_241, server: 207.46.154.93, port: 39011, type: vmess, uuid: d8d5eee2-b2c4-3ea0-96ef-cd64f1026107, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /xxx, ws-headers: {Host: 207.46.154.93}}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834, server: bj.keaiyun.xyz, port: 31103, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892, server: hk1.moobt.com, port: 8080, type: vmess, uuid: 8b5e117c-ed51-11e8-b474-000d3a80e7cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274, server: awsjp2.greatfirewall.cf, port: 443, type: vmess, uuid: 450474f7-9727-4879-950e-3a5a920875e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /GreatFireWall.CF, ws-headers: {Host: awsjp2.greatfirewall.cf}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894, server: az1.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835, server: bj.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 Relay_-🇭🇰HK_243, server: shcn2-04a.iplc188.com, port: 10001, type: vmess, uuid: 61a12800-a9f6-470b-b319-03736a99bc32, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _105, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 Relay_-🇭🇰HK_230, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: E614E4AC-B5E4-D0D5-8FF7-440DE4F6D9B5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_3186, server: a46a5468362dd28b7.awsglobalaccelerator.com, port: 8082, type: vmess, uuid: 85681fe3-134d-3e4b-9940-b400cbb415a2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /aga1, ws-headers: {Host: hk1.freeman.xyz}}
-  - {name: 🇺🇸 Pool_🇺🇸US_3493, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Relay_-🇺🇸US_233, server: 183.236.57.52, port: 10004, type: vmess, uuid: 61a12800-a9f6-470b-b319-03736a99bc32, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool__48, server: 2.58.242.43, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_3492, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US_4237, server: 205.185.115.178, port: 31100, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇩🇪 Relay_-🇩🇪DE_246, server: shcn2-04a.iplc188.com, port: 10004, type: vmess, uuid: 61a12800-a9f6-470b-b319-03736a99bc32, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 A-HK-17, server: hk17-n20.xiaoxiaofeng.xyz, port: 21720, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: hk17-n20.xiaoxiaofeng.xyz}}
+  - {name: 🇭🇰 A-HK-18, server: hk18-n21.xiaoxiaofeng.xyz, port: 21821, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: hk18-n21.xiaoxiaofeng.xyz}}
+  - {name: 🇭🇰 HK-01, server: hk01-n4.xiaoxiaofeng.xyz, port: 20104, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-02, server: hk02-n5.xiaoxiaofeng.xyz, port: 20205, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-03, server: hk03-n6.xiaoxiaofeng.xyz, port: 20306, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-04, server: hk04-n7.xiaoxiaofeng.xyz, port: 20407, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-05, server: hk05-n8.xiaoxiaofeng.xyz, port: 20508, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-06, server: hk06-n9.xiaoxiaofeng.xyz, port: 20609, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-01, server: jp01-n24.xiaoxiaofeng.xyz, port: 20124, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-02, server: jp02-n25.xiaoxiaofeng.xyz, port: 20225, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-03, server: jp03-n26.xiaoxiaofeng.xyz, port: 20326, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-04, server: jp04-n27.xiaoxiaofeng.xyz, port: 20427, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-05, server: jp05-n28.xiaoxiaofeng.xyz, port: 20528, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-06, server: jp06-n29.xiaoxiaofeng.xyz, port: 20629, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-07, server: jp07-n30.xiaoxiaofeng.xyz, port: 20730, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-08, server: jp08-n31.xiaoxiaofeng.xyz, port: 20831, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-01, server: kr01-n59.xiaoxiaofeng.xyz, port: 20159, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 KR-03, server: kr03-n61.xiaoxiaofeng.xyz, port: 20361, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-01【NETFLIX】, server: tw01-n39.xiaoxiaofeng.xyz, port: 20139, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US-01, server: us01-n49.xiaoxiaofeng.xyz, port: 20149, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: us01-n49.xiaoxiaofeng.xyz}}
+  - {name: 🇸🇬 新加坡01, server: sg01-n64.xiaoxiaofeng.xyz, port: 20164, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡02, server: sg02-n65.xiaoxiaofeng.xyz, port: 20265, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡03, server: sg03-n66.xiaoxiaofeng.xyz, port: 20366, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡04, server: sg04-n67.xiaoxiaofeng.xyz, port: 20467, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡05, server: sg05-n68.xiaoxiaofeng.xyz, port: 20568, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡06, server: sg06-n69.xiaoxiaofeng.xyz, port: 20669, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡07, server: sg07-n70.xiaoxiaofeng.xyz, port: 20770, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡08, server: sg08-n71.xiaoxiaofeng.xyz, port: 20871, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡09, server: sg09-n72.xiaoxiaofeng.xyz, port: 20972, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡10, server: sg10-n73.xiaoxiaofeng.xyz, port: 21073, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 Relay_-🇹🇼TW_237
-      - 🇭🇰 Relay_-🇭🇰HK_241
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274
-      - 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835
-      - 🇭🇰 Relay_-🇭🇰HK_243
-      - _105
-      - 🇭🇰 Relay_-🇭🇰HK_230
-      - 🇺🇸 US_3186
-      - 🇺🇸 Pool_🇺🇸US_3493
-      - 🇺🇸 Relay_-🇺🇸US_233
-      - Pool__48
-      - 🇺🇸 US_3492
-      - 🇺🇸 US_4237
-      - 🇩🇪 Relay_-🇩🇪DE_246
+      - 🇭🇰 A-HK-17
+      - 🇭🇰 A-HK-18
+      - 🇭🇰 HK-01
+      - 🇭🇰 HK-02
+      - 🇭🇰 HK-03
+      - 🇭🇰 HK-04
+      - 🇭🇰 HK-05
+      - 🇭🇰 HK-06
+      - 🇯🇵 JP-01
+      - 🇯🇵 JP-02
+      - 🇯🇵 JP-03
+      - 🇯🇵 JP-04
+      - 🇯🇵 JP-05
+      - 🇯🇵 JP-06
+      - 🇯🇵 JP-07
+      - 🇯🇵 JP-08
+      - 🇰🇷 KR-01
+      - 🇰🇷 KR-03
+      - 🇨🇳 TW-01【NETFLIX】
+      - 🇺🇸 US-01
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
+      - 🇸🇬 新加坡10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Relay_-🇹🇼TW_237
-      - 🇭🇰 Relay_-🇭🇰HK_241
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274
-      - 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835
-      - 🇭🇰 Relay_-🇭🇰HK_243
-      - _105
-      - 🇭🇰 Relay_-🇭🇰HK_230
-      - 🇺🇸 US_3186
-      - 🇺🇸 Pool_🇺🇸US_3493
-      - 🇺🇸 Relay_-🇺🇸US_233
-      - Pool__48
-      - 🇺🇸 US_3492
-      - 🇺🇸 US_4237
-      - 🇩🇪 Relay_-🇩🇪DE_246
+      - 🇭🇰 A-HK-17
+      - 🇭🇰 A-HK-18
+      - 🇭🇰 HK-01
+      - 🇭🇰 HK-02
+      - 🇭🇰 HK-03
+      - 🇭🇰 HK-04
+      - 🇭🇰 HK-05
+      - 🇭🇰 HK-06
+      - 🇯🇵 JP-01
+      - 🇯🇵 JP-02
+      - 🇯🇵 JP-03
+      - 🇯🇵 JP-04
+      - 🇯🇵 JP-05
+      - 🇯🇵 JP-06
+      - 🇯🇵 JP-07
+      - 🇯🇵 JP-08
+      - 🇰🇷 KR-01
+      - 🇰🇷 KR-03
+      - 🇨🇳 TW-01【NETFLIX】
+      - 🇺🇸 US-01
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
+      - 🇸🇬 新加坡10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_-🇹🇼TW_237
-      - 🇭🇰 Relay_-🇭🇰HK_241
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274
-      - 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835
-      - 🇭🇰 Relay_-🇭🇰HK_243
-      - _105
-      - 🇭🇰 Relay_-🇭🇰HK_230
-      - 🇺🇸 US_3186
-      - 🇺🇸 Pool_🇺🇸US_3493
-      - 🇺🇸 Relay_-🇺🇸US_233
-      - Pool__48
-      - 🇺🇸 US_3492
-      - 🇺🇸 US_4237
-      - 🇩🇪 Relay_-🇩🇪DE_246
+      - 🇭🇰 A-HK-17
+      - 🇭🇰 A-HK-18
+      - 🇭🇰 HK-01
+      - 🇭🇰 HK-02
+      - 🇭🇰 HK-03
+      - 🇭🇰 HK-04
+      - 🇭🇰 HK-05
+      - 🇭🇰 HK-06
+      - 🇯🇵 JP-01
+      - 🇯🇵 JP-02
+      - 🇯🇵 JP-03
+      - 🇯🇵 JP-04
+      - 🇯🇵 JP-05
+      - 🇯🇵 JP-06
+      - 🇯🇵 JP-07
+      - 🇯🇵 JP-08
+      - 🇰🇷 KR-01
+      - 🇰🇷 KR-03
+      - 🇨🇳 TW-01【NETFLIX】
+      - 🇺🇸 US-01
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
+      - 🇸🇬 新加坡10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_-🇹🇼TW_237
-      - 🇭🇰 Relay_-🇭🇰HK_241
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274
-      - 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835
-      - 🇭🇰 Relay_-🇭🇰HK_243
-      - _105
-      - 🇭🇰 Relay_-🇭🇰HK_230
-      - 🇺🇸 US_3186
-      - 🇺🇸 Pool_🇺🇸US_3493
-      - 🇺🇸 Relay_-🇺🇸US_233
-      - Pool__48
-      - 🇺🇸 US_3492
-      - 🇺🇸 US_4237
-      - 🇩🇪 Relay_-🇩🇪DE_246
+      - 🇭🇰 A-HK-17
+      - 🇭🇰 A-HK-18
+      - 🇭🇰 HK-01
+      - 🇭🇰 HK-02
+      - 🇭🇰 HK-03
+      - 🇭🇰 HK-04
+      - 🇭🇰 HK-05
+      - 🇭🇰 HK-06
+      - 🇯🇵 JP-01
+      - 🇯🇵 JP-02
+      - 🇯🇵 JP-03
+      - 🇯🇵 JP-04
+      - 🇯🇵 JP-05
+      - 🇯🇵 JP-06
+      - 🇯🇵 JP-07
+      - 🇯🇵 JP-08
+      - 🇰🇷 KR-01
+      - 🇰🇷 KR-03
+      - 🇨🇳 TW-01【NETFLIX】
+      - 🇺🇸 US-01
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
+      - 🇸🇬 新加坡10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 Relay_-🇹🇼TW_237
-      - 🇭🇰 Relay_-🇭🇰HK_241
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274
-      - 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835
-      - 🇭🇰 Relay_-🇭🇰HK_243
-      - _105
-      - 🇭🇰 Relay_-🇭🇰HK_230
-      - 🇺🇸 US_3186
-      - 🇺🇸 Pool_🇺🇸US_3493
-      - 🇺🇸 Relay_-🇺🇸US_233
-      - Pool__48
-      - 🇺🇸 US_3492
-      - 🇺🇸 US_4237
-      - 🇩🇪 Relay_-🇩🇪DE_246
+      - 🇭🇰 A-HK-17
+      - 🇭🇰 A-HK-18
+      - 🇭🇰 HK-01
+      - 🇭🇰 HK-02
+      - 🇭🇰 HK-03
+      - 🇭🇰 HK-04
+      - 🇭🇰 HK-05
+      - 🇭🇰 HK-06
+      - 🇯🇵 JP-01
+      - 🇯🇵 JP-02
+      - 🇯🇵 JP-03
+      - 🇯🇵 JP-04
+      - 🇯🇵 JP-05
+      - 🇯🇵 JP-06
+      - 🇯🇵 JP-07
+      - 🇯🇵 JP-08
+      - 🇰🇷 KR-01
+      - 🇰🇷 KR-03
+      - 🇨🇳 TW-01【NETFLIX】
+      - 🇺🇸 US-01
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
+      - 🇸🇬 新加坡10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_-🇹🇼TW_237
-      - 🇭🇰 Relay_-🇭🇰HK_241
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274
-      - 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835
-      - 🇭🇰 Relay_-🇭🇰HK_243
-      - _105
-      - 🇭🇰 Relay_-🇭🇰HK_230
-      - 🇺🇸 US_3186
-      - 🇺🇸 Pool_🇺🇸US_3493
-      - 🇺🇸 Relay_-🇺🇸US_233
-      - Pool__48
-      - 🇺🇸 US_3492
-      - 🇺🇸 US_4237
-      - 🇩🇪 Relay_-🇩🇪DE_246
+      - 🇭🇰 A-HK-17
+      - 🇭🇰 A-HK-18
+      - 🇭🇰 HK-01
+      - 🇭🇰 HK-02
+      - 🇭🇰 HK-03
+      - 🇭🇰 HK-04
+      - 🇭🇰 HK-05
+      - 🇭🇰 HK-06
+      - 🇯🇵 JP-01
+      - 🇯🇵 JP-02
+      - 🇯🇵 JP-03
+      - 🇯🇵 JP-04
+      - 🇯🇵 JP-05
+      - 🇯🇵 JP-06
+      - 🇯🇵 JP-07
+      - 🇯🇵 JP-08
+      - 🇰🇷 KR-01
+      - 🇰🇷 KR-03
+      - 🇨🇳 TW-01【NETFLIX】
+      - 🇺🇸 US-01
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
+      - 🇸🇬 新加坡10
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_-🇹🇼TW_237
-      - 🇭🇰 Relay_-🇭🇰HK_241
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274
-      - 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835
-      - 🇭🇰 Relay_-🇭🇰HK_243
-      - _105
-      - 🇭🇰 Relay_-🇭🇰HK_230
-      - 🇺🇸 US_3186
-      - 🇺🇸 Pool_🇺🇸US_3493
-      - 🇺🇸 Relay_-🇺🇸US_233
-      - Pool__48
-      - 🇺🇸 US_3492
-      - 🇺🇸 US_4237
-      - 🇩🇪 Relay_-🇩🇪DE_246
+      - 🇭🇰 A-HK-17
+      - 🇭🇰 A-HK-18
+      - 🇭🇰 HK-01
+      - 🇭🇰 HK-02
+      - 🇭🇰 HK-03
+      - 🇭🇰 HK-04
+      - 🇭🇰 HK-05
+      - 🇭🇰 HK-06
+      - 🇯🇵 JP-01
+      - 🇯🇵 JP-02
+      - 🇯🇵 JP-03
+      - 🇯🇵 JP-04
+      - 🇯🇵 JP-05
+      - 🇯🇵 JP-06
+      - 🇯🇵 JP-07
+      - 🇯🇵 JP-08
+      - 🇰🇷 KR-01
+      - 🇰🇷 KR-03
+      - 🇨🇳 TW-01【NETFLIX】
+      - 🇺🇸 US-01
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
+      - 🇸🇬 新加坡10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -202,23 +306,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_-🇹🇼TW_237
-      - 🇭🇰 Relay_-🇭🇰HK_241
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_834
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1892
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2274
-      - 🇭🇰 Relay_🇭🇰HK-🇨🇦CA_1894
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_835
-      - 🇭🇰 Relay_-🇭🇰HK_243
-      - _105
-      - 🇭🇰 Relay_-🇭🇰HK_230
-      - 🇺🇸 US_3186
-      - 🇺🇸 Pool_🇺🇸US_3493
-      - 🇺🇸 Relay_-🇺🇸US_233
-      - Pool__48
-      - 🇺🇸 US_3492
-      - 🇺🇸 US_4237
-      - 🇩🇪 Relay_-🇩🇪DE_246
+      - 🇭🇰 A-HK-17
+      - 🇭🇰 A-HK-18
+      - 🇭🇰 HK-01
+      - 🇭🇰 HK-02
+      - 🇭🇰 HK-03
+      - 🇭🇰 HK-04
+      - 🇭🇰 HK-05
+      - 🇭🇰 HK-06
+      - 🇯🇵 JP-01
+      - 🇯🇵 JP-02
+      - 🇯🇵 JP-03
+      - 🇯🇵 JP-04
+      - 🇯🇵 JP-05
+      - 🇯🇵 JP-06
+      - 🇯🇵 JP-07
+      - 🇯🇵 JP-08
+      - 🇰🇷 KR-01
+      - 🇰🇷 KR-03
+      - 🇨🇳 TW-01【NETFLIX】
+      - 🇺🇸 US-01
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
+      - 🇸🇬 新加坡10
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
